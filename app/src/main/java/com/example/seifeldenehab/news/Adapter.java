@@ -32,7 +32,7 @@ public class Adapter extends RecyclerView.Adapter<Adapter.ViewHolder> {
         this.listOfArticle=listOfArticle;
         mContext=context;
 
-        Log.e("lol","comit");
+        Log.e("lol","commit");
     }
 
     @NonNull
