@@ -40,6 +40,8 @@ public class MainActivity extends AppCompatActivity {
                 .addConverterFactory(GsonConverterFactory.create())
                 .build();
 
+        System.out.print("seif");
+
         Service service = retrofit.create(Service.class);
         Call<DataSet> repos = service.getData();
         repos.enqueue(new Callback<DataSet>() {
