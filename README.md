@@ -1,2 +1,0 @@
-# News
-BBC news app
